@@ -69,6 +69,10 @@ def writeJSON(parsedData):
         fOut.close()
 
 
+def create_thumbnail(file):
+    pass
+
+
 def listAvailablePdf():
     # papersDirWin = papersDir.replace("/", "\\")
     fOut = open(AVAILABLE_PDF_FILE, "w")
